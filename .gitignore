@@ -1,0 +1,56 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.so
+*.egg
+*.egg-info/
+*.manifest
+*.spec
+
+# Virtual environments
+.venv/
+env/
+venv/
+ENV/
+
+# Jupyter notebooks checkpoints
+.ipynb_checkpoints/
+
+# Logs
+*.log
+logs/
+*.out
+
+# Cache
+.cache/
+.pytest_cache/
+.mypy_cache/
+.dmypy.json
+.pyre/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Editor folders
+.vscode/
+.idea/
+
+# Models / data (don’t commit huge files)
+models/
+checkpoints/
+*.bin
+*.safetensors
+*.pt
+*.pth
+
+# Docker
+*.pid
+*.seed
+*.pid.lock
+
+# Environment configs
+.env
+.env.local
