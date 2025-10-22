@@ -9,7 +9,7 @@ VLLM_URL = os.getenv("VLLM_URL", "http://localhost:8000/v1/chat/completions")
 
 @app.get("/")
 def root():
-    return {"message": "Welcome to My Gemini API 🚀"}
+    return {"message": "WELCOME TO THE WORLD OFY GEMINI API'S🚀"}
 
 @app.post("/v1/chat/completions")
 async def chat(request: Request):
